@@ -7,7 +7,7 @@
 ### Recomendo que use um plano pago que forneça no mínimo 512MB de RAM + 0.5vcpu e edite o arquivo .env    ###
 ### e no campo AUTO_DOWNLOAD_LAVALINK_SERVERLIST mude o valor true para false                              ###
 ###                                                                                                        ###
-### Caso queira, você pode alterar o DISPLAY_NAME, DESCRIPTION.                           ###
+### Caso queira, você pode alterar o DISPLAY_NAME, DESCRIPTION.                                            ###
 ##############################################################################################################
 
 
