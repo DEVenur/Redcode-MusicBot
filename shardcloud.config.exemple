@@ -17,3 +17,5 @@ MAIN=main.py
 MEMORY=512
 VERSION=recommended
 LANGUAGE=python
+
+### https://docs.shardcloud.app/config
