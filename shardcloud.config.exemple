@@ -10,7 +10,6 @@
 ### Caso queira, você pode alterar o DISPLAY_NAME, DESCRIPTION.                                            ###
 ##############################################################################################################
 
-
 DISPLAY_NAME=MuseHeart-MusicBot
 DESCRIPTION=Source de música criada por: xritsu [DC ID: 184889853102653440] source link: https://github.com/zRitsu/MuseHeart-MusicBot
 MAIN=main.py
