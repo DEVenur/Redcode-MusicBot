@@ -1,0 +1,19 @@
+######################################################################
+### Aviso: Caso use este arquivo, renomeie para shardcloud.config ###
+######################################################################
+
+##############################################################################################################
+### Atenção: A RAM você pode alterar de acordo com o plano contratado (ou quantidade desejada).            ###
+### Recomendo que use um plano pago que forneça no mínimo 512MB de RAM + 0.5vcpu e edite o arquivo .env    ###
+### e no campo AUTO_DOWNLOAD_LAVALINK_SERVERLIST mude o valor true para false                              ###
+###                                                                                                        ###
+### Caso queira, você pode alterar o DISPLAY_NAME, DESCRIPTION.                           ###
+##############################################################################################################
+
+
+DISPLAY_NAME=MuseHeart-MusicBot
+DESCRIPTION=Source de música criada por: xritsu [DC ID: 184889853102653440] source link: https://github.com/zRitsu/MuseHeart-MusicBot
+MAIN=main.py
+MEMORY=512
+VERSION=recommended
+LANGUAGE=python
