@@ -24,9 +24,8 @@ from utils.music.track_encoder import encode_track
 if TYPE_CHECKING:
     from utils.client import BotCore
 
-spotify_regex = re.compile("https://open.spotify.com?.+(album|playlist|artist|track)/([a-zA-Z0-9]+)")
+spotify_regex = re.compile(r"https?://open\.spotify\.com(?:/[a-zA-Z]{2,5}(?:-[a-zA-Z]{2,5})?)?/(track|playlist|artist|album|user)/([a-zA-Z0-9]{22})")
 spotify_link_regex = re.compile(r"(?i)https?:\/\/spotify\.link\/?(?P<id>[a-zA-Z0-9]+)")
-spotify_regex_w_user = re.compile("https://open.spotify.com?.+(album|playlist|artist|track|user)/([a-zA-Z0-9]+)")
 
 spotify_cache_file = os.path.join(gettempdir(), ".spotify_cache.json")
 
